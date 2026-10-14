@@ -4,6 +4,8 @@ Record a CyTube showing, match it to a local copy of the film, and play the
 recording back with the chat replayed in sync — pauses, skips and rewinds
 included.
 
+(This shit was vibecoded using deepseek in a day, I LOVE YOU XI JING PING!)
+
 Kinodemo runs entirely on your own computer. It opens a small local web app at
 `http://127.0.0.1:8765` and never talks to anything except the CyTube channel
 you point it at and your own files.

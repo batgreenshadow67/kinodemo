@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""
-M0 spike (WP0.1 and WP0.3): capture frames from a stream, hash film frames,
+""capture frames from a stream, hash film frames,
 match the two, and report whether frame matching is reliable enough.
 
 Needs only: python3, numpy, ffmpeg/ffprobe on PATH.

@@ -1,0 +1,10 @@
+[
+  {"name":"monospace","source":"`(.+?)`","flags":"g","replace":"<code>\\1</code>","active":true,"filterlinks":false},
+  {"name":"bold","source":"\\*(.+?)\\*","flags":"g","replace":"<strong>\\1</strong>","active":true,"filterlinks":false},
+  {"name":"italic","source":"(^| )_(.+?)_($| )","flags":"g","replace":"\\1<em>\\2</em>\\3","active":true,"filterlinks":false},
+  {"name":"strike","source":"~~(.+?)~~","flags":"g","replace":"<s>\\1</s>","active":true,"filterlinks":false},
+  {"name":"greentext","source":"(^|\\n)(&gt;|>)([^\\n]*)","flags":"g","replace":"\\1<span class=\"greentext\">\\2\\3</span>","active":true,"filterlinks":false},
+  {"name":"inline spoiler","source":"\\[sp\\](.*?)\\[\\/sp\\]","flags":"gi","replace":"<span class=\"spoiler\">\\1</span>","active":true,"filterlinks":false},
+  {"name":"Text Color","source":"col:(.*?):","flags":"g","replace":"<span style=\"color:\\1\" class=\"chatcolor\">","active":true,"filterlinks":false},
+  {"name":"Tenor Embed","source":"(?<!src=\")(https:\\/\\/static\\d*\\.klipy\\.com\\/ii\\/[\\w\\-]+\\/[\\w\\-]+\\/[\\w\\-]+\\/[\\%\\w\\-]+\\.(webp|gif))","flags":"i","replace":"<img class=\"tenor-chat-embed gif-chat-embed\" src=\"\\1\" />","active":true,"filterlinks":true}
+]

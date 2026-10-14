@@ -1,0 +1,43 @@
+# --- user data: never commit ---
+settings.json
+recordings/
+clips/
+exports/
+clip_exports/
+film_index/
+
+# emote packs are user-supplied; keep the folder, ignore its contents
+emotes/*
+!emotes/.gitkeep
+!emotes/README.md
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- editor / OS ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- misc ---
+*.log
+*.tmp
+*.kino.tmp
+*.clip.tmp

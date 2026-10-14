@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# Windows launchers keep CRLF so cmd.exe is happy
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary-ish, don't try to merge
+*.kino binary
+*.clip binary
+*.jpg binary
+*.png binary
+*.npz binary
+
+# Lockfile is worth committing but noisy in diffs
+package-lock.json linguist-generated=true

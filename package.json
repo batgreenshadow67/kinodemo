@@ -1,0 +1,14 @@
+{
+  "name": "kinoplex-demo-m0-chat-logger",
+  "version": "0.0.1",
+  "private": true,
+  "description": "M0 spike: log CyTube chat and channel events with timestamps",
+  "type": "commonjs",
+  "scripts": {
+    "log": "node chat_logger.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.5.4",
+    "playwright-core": "^1.48.0"
+  }
+}

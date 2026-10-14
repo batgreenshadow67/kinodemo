@@ -17,9 +17,7 @@ you point it at and your own files.
 1. **Records** a showing: it logs the chat and captures one low-resolution frame
    every few seconds. That's enough to find where in the film the recording
    started, and it keeps the recording small.
-2. **Matches** the recording against a film file you already have. Kinodemo
-   reads the film once (about a minute per hour), then reuses that index for
-   future recordings of the same film.
+2. **Matches** the recording against a film file you already have.
 3. **Plays back** the film with the chat scrolling alongside it. Because the
    chat is anchored to film positions rather than wall-clock times, a pause or
    a skip during the original showing doesn't push the rest of the chat out of
